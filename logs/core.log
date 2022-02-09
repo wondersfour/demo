@@ -1,0 +1,17 @@
+2022-02-09 13:54:38.610  INFO 8892 --- [main] com.wonders.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_211 on zj with PID 8892 (D:\svnCheckOut\myDemo\target\classes started by zj in D:\svnCheckOut\myDemo)
+2022-02-09 13:54:38.618  INFO 8892 --- [main] com.wonders.demo.DemoApplication         : The following profiles are active: dev
+2022-02-09 13:54:51.358  INFO 8892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-09 13:54:51.422  INFO 8892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-09 13:54:51.424  INFO 8892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-09 13:54:52.245  INFO 8892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2022-02-09 13:54:52.247  INFO 8892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13402 ms
+2022-02-09 13:54:59.318  INFO 8892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2022-02-09 13:54:59.368  INFO 8892 --- [main] com.wonders.demo.DemoApplication         : Started DemoApplication in 23.88 seconds (JVM running for 32.671)
+2022-02-09 13:55:17.946  INFO 8892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-09 13:55:17.946  INFO 8892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-09 13:55:17.948  INFO 8892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-09 13:55:18.135  INFO 8892 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-09 13:55:18.719  INFO 8892 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-09 13:55:18.781 DEBUG 8892 --- [http-nio-8080-exec-1] c.w.d.m.mapper.UserMapper.selectAll      : ==>  Preparing: select * from user
+2022-02-09 13:55:18.990 DEBUG 8892 --- [http-nio-8080-exec-1] c.w.d.m.mapper.UserMapper.selectAll      : ==> Parameters: 
+2022-02-09 13:55:19.185 DEBUG 8892 --- [http-nio-8080-exec-1] c.w.d.m.mapper.UserMapper.selectAll      : <==      Total: 2
